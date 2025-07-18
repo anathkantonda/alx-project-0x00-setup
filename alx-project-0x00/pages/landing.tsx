@@ -23,7 +23,6 @@ const Landing = () => {
                 <Button title="Medium - rounded-sm" styles="text-base rounded-sm" />
                 <Button title="Medium - rounded-md" styles="text-base rounded-md" />
                 <Button title="Medium - rounded-lg" styles="text-base rounded-lg" />
-                <Button title="Medium - rounded-lg" styles="text-base rounded-lg" />
                 <Button title="Medium - rounded-full" styles="text-base rounded-full" />
             </div>
 
@@ -31,7 +30,6 @@ const Landing = () => {
             <div className="flex flex-col items-start gap-2">
                 <Button title="Large - rounded-sm" styles="text-lg rounded-sm" />
                 <Button title="Large - rounded-md" styles="text-lg rounded-md" />
-                <Button title="Large - rounded-lg" styles="text-lg rounded-lg" />
                 <Button title="Large - rounded-lg" styles="text-lg rounded-lg" />
                 <Button title="Large - rounded-full" styles="text-lg rounded-full" />
             </div>
