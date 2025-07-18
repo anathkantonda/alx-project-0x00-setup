@@ -15,6 +15,12 @@ export interface PillProps {
   title: string
 }
 
+export interface ButtonProps {
+  title: string;
+  styles: string; // Required according to the error
+  onClick?: () => void;
+}
+
 const Home: React.FC = () => {
   return (
     <main className="flex flex-col h-screen justify-center items-center text-4xl font-semibold">
