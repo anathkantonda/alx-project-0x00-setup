@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/pages/index";
+import { ButtonProps } from "@/interfaces/index";
 
 const Button = ({ title, styles, onClick }: ButtonProps) => {
   return (

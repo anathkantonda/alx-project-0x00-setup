@@ -1,4 +1,4 @@
-import { PillProps } from "@/pages/index";
+import { PillProps } from "@/interfaces/index";
 
 const Pill: React.FC<PillProps> = ({ title }) => {
   return (

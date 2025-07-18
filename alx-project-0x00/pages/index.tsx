@@ -1,12 +1,6 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 
-export interface ButtonProps {
-  styles: string;
-  title: string;
-  onClick?: () => void;
-}
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -16,10 +10,6 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-export interface PillProps {
-  title: string
-}
 
 const Home: React.FC = () => {
   return (
